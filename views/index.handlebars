@@ -1,5 +1,33 @@
 <div class="jumbotron">
-    <h1>EAT-DA-BURGER</h1>
+    <h1>EAT-DA-BURGER
+        <img class="center img-responsive" src="/assets/img/burger.png" alt="Burger">
+    </h1>
+</div>
+
+<div class="row">
+    <div class="col-lg-2">
+    
+    </div>
+    <div class="col-lg-4">
+        <h4>
+        #1 Single Hamburger......................$5.99
+        <br> #2 Double Hamburger......................$6.99
+        <br> #3 Triple Hamburger......................$7.99
+        <br>
+        </h4>
+    </div>
+    <div class="col-lg-4">
+        <h4>
+        #1 Single Cheeseburger......................$6.50
+        <br> #2 Double Cheeseburger......................$7.50
+        <br> #3 Triple Cheeseburger......................$8.50
+        <br>
+        </h4>
+    </div>
+    <div class="col-lg-2">
+    
+    </div>
+
 </div>
 
 <div class="row">
@@ -16,8 +44,7 @@
                     <option>Single Cheeseburger</option>
                     <option>Double Cheeseburger</option>
                     <option>Triple Cheeseburger</option>
-                    <option>Bacon Cheeseburger</option>
-                    </select>
+                </select>
             </div>
 
             <button class="btn btn-warning" type="submit">ORDER DA-BURGER!</button>
@@ -28,7 +55,7 @@
 <br>
 <div class="row">
     <div class="col-lg-2">
-        <img class="img-thumbnail img-responsive" src="/assets/img/burger.png" alt="Burger">
+
     </div>
     <div class="col-lg-4">
         <div id="new">
@@ -57,14 +84,13 @@
             <ul>
                 {{#each burger}} {{#if this.devoured}}
                 <li>
-                    {{this.burger_name}}                    
+                    {{this.burger_name}}
 
                 </li>
                 {{/if}} {{/each}}
             </ul>
         </div>
     </div>
-    <div class ="col-lg-2">
-<img class="img-thumbnail img-responsive" src="/assets/img/burger.png" alt="Burger">
+    <div class="col-lg-2">
     </div>
 </div>
