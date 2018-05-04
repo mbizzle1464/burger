@@ -1,4 +1,4 @@
-# EAT-DA-BURGER![](public/assets/img/burger.png width=100)
+# EAT-DA-BURGER ![](public/assets/img/burger.png width=100)
 
 ### Overview
 ***
