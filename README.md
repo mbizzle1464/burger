@@ -1,5 +1,5 @@
 # EAT-DA-BURGER
-![](public/img/burger.png)
+![](public/assets/img/burger.png)
 
 ### Overview
 ***
@@ -15,7 +15,7 @@ Your app will store every burger in a database, whether devoured or not.
 ### Let's go! 
 ***
 
-Want to order a burger and devour it from EAT-DA-BURGER? No worries.... Click [here](https://be-there-for-you.herokuapp.com/). 
+Want to order a burger and devour it from EAT-DA-BURGER? No worries.... Click [here](https://eat-da-burger1464.herokuapp.com/). 
 
 #### Author:
 ***
@@ -29,8 +29,8 @@ Michael Bizzle - [GitHub](https://github.com/mbizzle1464)
 * Express
 * MySql
 * Handlebars
-* ORM
-* MVC Design
+* Object Relational Mapping (ORM)
+* Model View Controller (MVC) Design
 * npm packages
     * body-parser
     * express
