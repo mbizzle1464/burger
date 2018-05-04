@@ -1,6 +1,7 @@
 var express = require("express");
-
+var moment = require("moment"); 
 var router = express.Router();
+
 
 // Import the model (burger.js) to use its database functions.
 var burger = require("../models/burger.js");
@@ -11,16 +12,18 @@ router.get("/", function (req, res) {
         var hbsObject = {
             burger: data
         };
-        console.log(hbsObject);
+        console.log("=================================================\n");
+        console.log(JSON.stringify(hbsObject, null, 2));
+        console.log("=================================================\n");
         res.render("index", hbsObject);
     });
 });
 
 router.post("/", function (req, res) {
     burger.create([
-        "burger_name", "devoured"
+        "person_name","burger_name", "devoured"
     ], [
-            req.body.burger_name, req.body.devoured
+            req.body.person_name, req.body.burger_name, req.body.devoured
         ], function (data) {
             res.redirect("/");
         });
@@ -30,7 +33,9 @@ router.post("/", function (req, res) {
 router.put("/:id", function (req, res) {
     var condition = "id = " + req.params.id;
 
+    console.log("=================================================\n");
     console.log("condition", condition);
+    console.log("=================================================\n");
 
     burger.update({
         "devoured": req.body.devoured

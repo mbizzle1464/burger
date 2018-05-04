@@ -1,13 +1,13 @@
 
 INSERT INTO burgers
-    (burger_name)
+    (person_name, burger_name)
 VALUES
-    ('Single Cheeseburger');
+    ('John','Single Cheeseburger');
 INSERT INTO burgers
-    (burger_name)
+    (person_name, burger_name)
 VALUES
-    ('Double Cheeseburger');
+    ('Michael','Double Cheeseburger');
 INSERT INTO burgers
-    (burger_name)
+    (person_name, burger_name)
 VALUES
-    ('Triple Cheeseburger');
+    ('Stephanie','Triple Cheeseburger');
