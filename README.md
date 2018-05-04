@@ -1,4 +1,4 @@
-![](public/assets/img/burger.png | width=100) 
+![](public/assets/img/favicon.ico) 
 # EAT-DA-BURGER 
 
 ### Overview
