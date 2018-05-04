@@ -1,5 +1,4 @@
-![](public/assets/img/favicon.ico) 
-# EAT-DA-BURGER 
+# :hamburger: EAT-DA-BURGER :hamburger:
 
 ### Overview
 ***
